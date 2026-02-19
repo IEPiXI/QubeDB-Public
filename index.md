@@ -11,7 +11,7 @@
 
 #### 1. Data Collection
 
-To enforce free usage limits and allow you to sync your status, we collect a unique Device Identifier (Instance ID) and anonymous usage counters for specific tools. If you choose to create an account, we may also collect your email address via Google Play Login or Apple Login. We do not use this information for marketing purposes; it is strictly used to track usage for our freemium model.
+To enforce free usage limits and allow you to sync your status, we collect a unique User ID (automatically generated or linked to your account), timestamps for resetting limits, and specific tool usage counters (such as CFOP, F2L, or Scanner usage). If you choose to create an account, we also collect your email address via Google Play Login or Apple Login. We do not use this information for marketing purposes; it is strictly used to track usage for our freemium model.
 
 #### 2. Authentication (Google Play / Apple Login)
 
@@ -27,7 +27,7 @@ Camera input is processed in real-time on your device to recognize cube colors. 
 
 #### 5. Cloud Storage (Firebase)
 
-We use Google Firebase (Firestore/Realtime Database) to store your Device Identifier, email address (if logged in), and daily tool usage counts. This allows us to reset your free usage limits daily and sync across devices. This data is used strictly for enforcing usage rights.
+We use Google Firebase (Firestore/Realtime Database) to store your User ID, email address (if logged in), timestamps (e.g., creation, update, and next reset times), and your usage statistics for specific tools. This allows us to reset your free usage limits daily and sync across devices. This data is used strictly for enforcing usage rights.
 
 #### 6. Payment Processing (RevenueCat)
 
@@ -71,7 +71,7 @@ We reserve the right to modify or discontinue features of the application at any
 
 #### 6. Subscriptions and Usage Limits
 
-Certain features of QubeDB are subject to daily usage limits ('Freemium Model'). These limits are enforced by tracking a unique identifier associated with your device or account. To remove these limits, you may purchase a subscription.
+Certain features of QubeDB are subject to daily usage limits ('Freemium Model'). These limits are enforced by tracking a unique User ID associated with your app installation or account. To remove these limits, you may purchase a subscription.
 
 Subscriptions are managed via the Apple App Store or Google Play Store. Payment will be charged to your store account upon confirmation of purchase. Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period.
 
@@ -108,7 +108,7 @@ The contents of this application have been created with the utmost care. However
 
 #### 1. Datenerfassung
 
-Zur Durchsetzung der kostenlosen Nutzungsgrenzen und zur geräteübergreifenden Synchronisation erfassen und speichern wir eine eindeutige Gerätekennung (Instance ID) und anonyme Nutzungszähler für bestimmte Werkzeuge. Wenn Sie sich für die Erstellung eines Kontos entscheiden, erfassen wir möglicherweise auch Ihre E-Mail-Adresse über den Google Play Login oder Apple Login. Diese Informationen werden nicht für Marketingzwecke verwendet, sondern dienen ausschließlich der Nachverfolgung der Nutzung für unser Freemium-Modell.
+Zur Durchsetzung der kostenlosen Nutzungsgrenzen und zur geräteübergreifenden Synchronisation erfassen und speichern wir eine eindeutige Benutzer-ID (automatisch generiert oder mit Ihrem Konto verknüpft), Zeitstempel zum Zurücksetzen der Limits sowie Nutzungszähler für bestimmte Werkzeuge (wie CFOP, F2L oder Scanner). Wenn Sie sich für die Erstellung eines Kontos entscheiden, erfassen wir auch Ihre E-Mail-Adresse über den Google Play Login oder Apple Login. Diese Informationen werden nicht für Marketingzwecke verwendet, sondern dienen ausschließlich der Nachverfolgung der Nutzung für unser Freemium-Modell.
 
 #### 2. Authentifizierung (Google Play / Apple Login)
 
@@ -124,7 +124,7 @@ Kameraeingaben werden in Echtzeit auf Ihrem Gerät verarbeitet, um Würfelfarben
 
 #### 5. Cloud-Speicher (Firebase)
 
-Wir nutzen Google Firebase (Firestore/Realtime Database), um Ihre Gerätekennung, E-Mail-Adresse (falls angemeldet) und täglichen Werkzeugnutzungszähler zu speichern. Dies ermöglicht es uns, Ihre kostenlosen Nutzungsgrenzen täglich zurückzusetzen und geräteübergreifend zu synchronisieren. Diese Daten werden ausschließlich zur Durchsetzung von Nutzungsrechten verwendet.
+Wir nutzen Google Firebase (Firestore/Realtime Database), um Ihre Benutzer-ID, E-Mail-Adresse (falls angemeldet), Zeitstempel (z. B. für Erstellung, Aktualisierung und das nächste Zurücksetzen) und Ihre Nutzungsstatistiken für bestimmte Werkzeuge zu speichern. Dies ermöglicht es uns, Ihre kostenlosen Nutzungsgrenzen täglich zurückzusetzen und geräteübergreifend zu synchronisieren. Diese Daten werden ausschließlich zur Durchsetzung von Nutzungsrechten verwendet.
 
 #### 6. Zahlungsabwicklung (RevenueCat)
 
@@ -168,7 +168,7 @@ Wir behalten uns das Recht vor, Funktionen der Anwendung jederzeit ohne vorherig
 
 #### 6. Abonnements und Nutzungsgrenzen
 
-Bestimmte Funktionen von QubeDB unterliegen täglichen Nutzungsgrenzen ('Freemium-Modell'). Diese Grenzen werden durch die Verfolgung einer eindeutigen Kennung (bzw. Ihres Kontos) durchgesetzt. Um diese Grenzen aufzuheben, können Sie ein Abonnement erwerben.
+Bestimmte Funktionen von QubeDB unterliegen täglichen Nutzungsgrenzen ('Freemium-Modell'). Diese Grenzen werden durch die Verfolgung einer eindeutigen Benutzer-ID durchgesetzt, die mit Ihrer App-Installation oder Ihrem Konto verknüpft ist. Um diese Grenzen aufzuheben, können Sie ein Abonnement erwerben.
 
 Abonnements werden über den Apple App Store oder Google Play Store verwaltet. Die Zahlung wird Ihrem Store-Konto bei Kaufbestätigung belastet. Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ablauf des aktuellen Zeitraums gekündigt werden.
 
