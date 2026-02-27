@@ -11,39 +11,23 @@
 
 #### 1. Data Collection
 
-To enforce free usage limits and allow you to sync your status, we collect a unique User ID (automatically generated or linked to your account), timestamps for resetting limits, and specific tool usage counters (such as CFOP, F2L, or Scanner usage). If you choose to create an account, we also collect your email address via Google Play Login or Apple Login. We do not use this information for marketing purposes; it is strictly used to track usage for our freemium model.
+We do not collect personal contact information like names, emails, or phone numbers. Anonymous data may be processed strictly to manage subscription status.
 
-#### 2. Authentication (Google Play / Apple Login)
-
-You have the option to log in using Google Play Login or Apple Login. If you use these services, we receive authentication tokens and the associated email address. This data is used exclusively to link your freemium usage limits and subscription status across your devices.
-
-#### 3. Local Storage
+#### 2. Local Storage
 
 Your general settings, solved states, and training statistics are stored locally on your device using AsyncStorage and SecureStore.
 
-#### 4. Camera Data
+#### 3. Camera Data
 
 Camera input is processed in real-time on your device to recognize cube colors. No image data is stored or transmitted.
 
-#### 5. Cloud Storage (Firebase)
-
-We use Google Firebase (Firestore/Realtime Database) to store your User ID, email address (if logged in), timestamps (e.g., creation, update, and next reset times), and your usage statistics for specific tools. This allows us to reset your free usage limits daily and sync across devices. This data is used strictly for enforcing usage rights.
-
-#### 6. Payment Processing (RevenueCat)
+#### 4. Payment Processing (RevenueCat)
 
 We use RevenueCat to manage subscription status. When you purchase a subscription, an anonymous App User ID and purchase receipt data are shared with RevenueCat to validate your premium status. Financial data (credit cards) is handled exclusively by the Apple App Store or Google Play Store; we do not have access to it.
 
-#### 7. Third-Party Libraries
+#### 5. Third-Party Libraries
 
 This app uses open-source libraries (e.g., React Native, Expo, Three.js) which function according to their own policies.
-
-#### 8. Data Retention and Deletion
-
-You have the right to request the deletion of your data at any time. If you have logged in via Google Play or Apple Login, you can delete your account and associated data directly within the app settings or by contacting us via email. Once requested, your email and usage counters will be permanently deleted from our active databases.
-
-#### 9. Children's Privacy
-
-Our application does not knowingly collect personally identifiable information from children under 13. The data collected is used strictly for internal operations and app functionality (enforcing free usage limits). If you are a parent or guardian and believe your child has provided us with personal information, please contact us.
 
 <br>
 
@@ -51,7 +35,7 @@ Our application does not knowingly collect personally identifiable information f
 
 #### 1. Scope
 
-QubeDB is a tool designed to assist with Rubik's Cube solving and training, offering both free and paid features. The application is provided 'as is' for personal use.
+QubeDB is a tool designed to assist with Cube solving and training, offering both free and paid features. The application is provided 'as is' for personal use.
 
 #### 2. Usage Rights
 
@@ -69,9 +53,9 @@ The developer assumes no liability for damages resulting from the use of the app
 
 We reserve the right to modify or discontinue features of the application at any time without prior notice.
 
-#### 6. Subscriptions and Usage Limits
+#### 6. Subscriptions
 
-Certain features of QubeDB are subject to daily usage limits ('Freemium Model'). These limits are enforced by tracking a unique User ID associated with your app installation or account. To remove these limits, you may purchase a subscription.
+Certain features of QubeDB are exclusively available to Premium users. To access these features, you may purchase a subscription.
 
 Subscriptions are managed via the Apple App Store or Google Play Store. Payment will be charged to your store account upon confirmation of purchase. Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period.
 
@@ -82,13 +66,13 @@ Subscriptions are managed via the Apple App Store or Google Play Store. Payment 
 #### Information according to § 5 TMG
 
 Robert Krug<br>
-Heinrich-Heine-Straße 16<br>
+Heinrich-Heine Straße 16<br>
 99310 Arnstadt<br>
 
 #### Contact
 
 **Phone:**<br>
-03628 6469000<br>
++49 3628 6469000<br>
 <br>
 **Email:**<br>
 robert.krug@qube-db.com<br>
@@ -108,39 +92,23 @@ The contents of this application have been created with the utmost care. However
 
 #### 1. Datenerfassung
 
-Zur Durchsetzung der kostenlosen Nutzungsgrenzen und zur geräteübergreifenden Synchronisation erfassen und speichern wir eine eindeutige Benutzer-ID (automatisch generiert oder mit Ihrem Konto verknüpft), Zeitstempel zum Zurücksetzen der Limits sowie Nutzungszähler für bestimmte Werkzeuge (wie CFOP, F2L oder Scanner). Wenn Sie sich für die Erstellung eines Kontos entscheiden, erfassen wir auch Ihre E-Mail-Adresse über den Google Play Login oder Apple Login. Diese Informationen werden nicht für Marketingzwecke verwendet, sondern dienen ausschließlich der Nachverfolgung der Nutzung für unser Freemium-Modell.
+Wir erfassen keine persönlichen Kontaktinformationen wie Namen, E-Mails oder Telefonnummern. Anonyme Daten können ausschließlich zur Verwaltung des Abonnementstatus verarbeitet werden.
 
-#### 2. Authentifizierung (Google Play / Apple Login)
-
-Sie haben die Möglichkeit, sich über den Google Play Login oder Apple Login anzumelden. Wenn Sie diese Dienste nutzen, erhalten wir Authentifizierungs-Token und die damit verbundene E-Mail-Adresse. Diese Daten werden ausschließlich verwendet, um Ihre Freemium-Nutzungsgrenzen und Ihren Abonnementstatus geräteübergreifend zu verknüpfen.
-
-#### 3. Lokaler Speicher
+#### 2. Lokaler Speicher
 
 Ihre allgemeinen Einstellungen, gelösten Zustände und Trainingsstatistiken werden lokal auf Ihrem Gerät unter Verwendung von AsyncStorage und SecureStore gespeichert.
 
-#### 4. Kameradaten
+#### 3. Kameradaten
 
 Kameraeingaben werden in Echtzeit auf Ihrem Gerät verarbeitet, um Würfelfarben zu erkennen. Es werden keine Bilddaten gespeichert oder übertragen.
 
-#### 5. Cloud-Speicher (Firebase)
-
-Wir nutzen Google Firebase (Firestore/Realtime Database), um Ihre Benutzer-ID, E-Mail-Adresse (falls angemeldet), Zeitstempel (z. B. für Erstellung, Aktualisierung und das nächste Zurücksetzen) und Ihre Nutzungsstatistiken für bestimmte Werkzeuge zu speichern. Dies ermöglicht es uns, Ihre kostenlosen Nutzungsgrenzen täglich zurückzusetzen und geräteübergreifend zu synchronisieren. Diese Daten werden ausschließlich zur Durchsetzung von Nutzungsrechten verwendet.
-
-#### 6. Zahlungsabwicklung (RevenueCat)
+#### 4. Zahlungsabwicklung (RevenueCat)
 
 Wir nutzen RevenueCat, um den Abonnementstatus zu verwalten. Wenn Sie ein Abonnement erwerben, werden eine anonyme App-Benutzer-ID und Kaufbelegdaten an RevenueCat weitergegeben, um Ihren Premium-Status zu validieren. Finanzdaten (Kreditkarten) werden ausschließlich vom Apple App Store oder Google Play Store verarbeitet; wir haben keinen Zugriff darauf.
 
-#### 7. Bibliotheken von Drittanbietern
+#### 5. Bibliotheken von Drittanbietern
 
 Diese App nutzt Open-Source-Bibliotheken (z. B. React Native, Expo, Three.js), die gemäß ihren eigenen Richtlinien funktionieren.
-
-#### 8. Datenspeicherung und Löschung
-
-Sie haben jederzeit das Recht, die Löschung Ihrer Daten zu verlangen. Wenn Sie sich über Google Play oder Apple Login angemeldet haben, können Sie Ihr Konto und die damit verbundenen Daten direkt in den App-Einstellungen oder durch Kontaktaufnahme per E-Mail löschen. Nach der Anfrage werden Ihre E-Mail-Adresse und Ihre Nutzungszähler dauerhaft aus unseren aktiven Datenbanken gelöscht.
-
-#### 9. Datenschutz bei Kindern
-
-Unsere Anwendung erfasst wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren. Die erfassten Daten dienen ausschließlich internen Abläufen und der App-Funktionalität (Durchsetzung von Nutzungsgrenzen). Wenn Sie als Elternteil oder Vormund glauben, dass Ihr Kind uns personenbezogene Daten übermittelt hat, kontaktieren Sie uns bitte.
 
 <br>
 
@@ -166,11 +134,11 @@ Der Entwickler übernimmt keine Haftung für Schäden, die aus der Nutzung der A
 
 Wir behalten uns das Recht vor, Funktionen der Anwendung jederzeit ohne vorherige Ankündigung zu ändern oder einzustellen.
 
-#### 6. Abonnements und Nutzungsgrenzen
+#### 6. Abonnements
 
-Bestimmte Funktionen von QubeDB unterliegen täglichen Nutzungsgrenzen ('Freemium-Modell'). Diese Grenzen werden durch die Verfolgung einer eindeutigen Benutzer-ID durchgesetzt, die mit Ihrer App-Installation oder Ihrem Konto verknüpft ist. Um diese Grenzen aufzuheben, können Sie ein Abonnement erwerben.
+Bestimmte Funktionen von QubeDB stehen exklusiv Premium-Nutzern zur Verfügung. Um auf diese Funktionen zugreifen zu können, können Sie ein Abonnement erwerben.
 
-Abonnements werden über den Apple App Store oder Google Play Store verwaltet. Die Zahlung wird Ihrem Store-Konto bei Kaufbestätigung belastet. Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ablauf des aktuellen Zeitraums gekündigt werden.
+Abonnements werden über den Apple App Store oder Google Play Store verarbeitet. Die Zahlung wird Ihrem Store-Konto bei Kaufbestätigung belastet. Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ablauf des aktuellen Zeitraums gekündigt werden.
 
 <br>
 
@@ -179,13 +147,13 @@ Abonnements werden über den Apple App Store oder Google Play Store verwaltet. D
 #### Angaben gemäß § 5 TMG
 
 Robert Krug<br>
-Heinrich-Heine-Straße 16<br>
+Heinrich-Heine Straße 16<br>
 99310 Arnstadt<br>
 
-#### Kontakt
+#### Contact
 
 **Telefon:**<br>
-03628 6469000<br>
++49 3628 6469000<br>
 <br>
 **E-Mail:**<br>
 robert.krug@qube-db.com<br>
