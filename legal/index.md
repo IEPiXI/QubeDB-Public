@@ -66,7 +66,7 @@ Subscriptions are managed via the Apple App Store or Google Play Store. Payment 
 #### Information according to § 5 TMG
 
 Robert Krug<br>
-Heinrich-Heine Straße 16<br>
+Heinrich-Heine-Straße 16<br>
 99310 Arnstadt<br>
 
 #### Contact
@@ -147,7 +147,7 @@ Abonnements werden über den Apple App Store oder Google Play Store verarbeitet.
 #### Angaben gemäß § 5 TMG
 
 Robert Krug<br>
-Heinrich-Heine Straße 16<br>
+Heinrich-Heine-Straße 16<br>
 99310 Arnstadt<br>
 
 #### Contact
